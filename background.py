@@ -1,4 +1,4 @@
-
+import pygame
 
 screen =  pygame
 
