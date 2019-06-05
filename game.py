@@ -3,10 +3,13 @@ import pygame
 from background import Background
 
 pygame.init()
-screen = pygame.display.set_mode((800, 600))
+
+window_size = (800, 600)
+screen = pygame.display.set_mode(window_size)
+
 done = False
 
-background = Background()
+background = Background(window_size)
 
 while not done:
     for event in pygame.event.get():
@@ -16,5 +19,4 @@ while not done:
     background.draw(screen)
 
     # Add this somewhere after the event pumping and before the display.flip()
-    pygame.draw.rect(screen, (0, 128, 255), pygame.Rect(30, 30, 60, 60))
     pygame.display.flip()
