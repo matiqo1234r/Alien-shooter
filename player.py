@@ -16,59 +16,6 @@ if event.type == pygame.KEYDOWN and event.key == pygame.K_d:
             x = x + 25
 
 
-class Level():
-
-    def rysuj(self):
-
-
-
-    def wczytajzpliku(self):
-
-
-class Tło():
-
-    def rysuj(self):
-        pass
-
-class Duszek():
-
-    def rysuj(self):
-
-
-
-    def ustawpozycję(self):
-
-
-
-
-    def pokaż(self):
-
-
-
-
-    def ukruj(self):
-
-
-
-
-    def zniszcz(self):
-
-
-
-
-    def pozycja(self):
-
-
-
-
-    def rozmiar(self):
-
-
-
-rocket = def __int__():
-    pygame.image.load(os.path.join('data', 'minecrtafte.png'))
-
-
 
 
 steruj()
