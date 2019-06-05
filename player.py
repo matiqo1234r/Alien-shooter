@@ -1,3 +1,5 @@
+import pyggame
+
 def steruj(event):
     global x
     global y

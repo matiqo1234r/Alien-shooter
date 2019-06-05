@@ -1,6 +1,5 @@
-import pygame
-
-screen = pygame
+import pygame, sys
+from pygame.locals import *
 
 
 class Tło():
