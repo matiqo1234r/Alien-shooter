@@ -1,13 +1,19 @@
 import pygame
 
+from background import Background
+
 pygame.init()
-screen = pygame.display.set_mode((400, 300))
+screen = pygame.display.set_mode((800, 600))
 done = False
+
+background = Background()
 
 while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
+
+    background.draw(screen)
 
     # Add this somewhere after the event pumping and before the display.flip()
     pygame.draw.rect(screen, (0, 128, 255), pygame.Rect(30, 30, 60, 60))
