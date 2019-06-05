@@ -1,6 +1,7 @@
 import pygame
 
-screen =  pygame
+screen = pygame
+
 
 class Tło():
 
